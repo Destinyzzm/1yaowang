@@ -1,0 +1,234 @@
+.layout {
+    margin: 0 auto;
+    width:980px;
+}
+
+
+.c_content{
+	position: relative;
+	width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flow-steps{
+	overflow: hidden;
+    margin: 20px 0;
+    position: absolute;
+    right: 0;
+    top: -87px;
+}
+.flow-steps li.current {
+    background-color: #0083ce;
+    color: #fff;
+    font-weight: bold;
+}
+.flow-steps .num5 li {
+    width: 175px;
+}
+.flow-steps li {
+    float: left;
+    background: #f3f3f3 url(../img/followstep.png) no-repeat right top;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #a5a5a5;
+    padding: 0 15px 0 0;
+    overflow: hidden;
+}
+.flow-steps li.last {
+    background-image: none;
+}
+.cart-first-bar{
+	font-family: "Microsoft YaHei";
+    padding: 0 0 6px 0;
+    line-height: 20px;
+    height: 20px;
+    color: #0083CE;
+    
+}
+.cart-first-bar div{
+	border-bottom: 2px solid #0083CE;
+    padding-bottom: 5px;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+}
+.empty_box{
+	border-top: #a5a5a5 2px solid;
+    background-color: #fff;
+    min-height: 220px;
+    width: 980px;
+    text-align: center;
+}
+.empty_box .e_inner_logout {
+    float: none;
+    clear: both;
+    margin: 64px auto 0;
+    width: 320px;
+    overflow: hidden;
+    zoom: 1;
+}
+.empty_box .e_inner_logout .e_icon{
+	background: url(../img/cart.png) no-repeat -9999px -9999px;
+	float: left;
+    background-position: -16px -287px;
+    left: 12px;
+    width: 120px;
+    height: 64px;
+    overflow: hidden;
+}
+.empty_box .e_inner_logout .e_text{
+	float: left;
+    display: inline-block;
+    background-color: #eaf9ff;
+    border: #e6e6e6 1px solid;
+    height: 34px;
+    line-height: 34px;
+    margin: 11px 10px 0 3px;
+    padding: 0 10px;
+}
+.empty_box .e_inner_logout .e_text .e_tbg{
+	float: left;
+	background: url(../img/cart.png) no-repeat -9999px -9999px;
+    background-position: 0px -287px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    margin-left: -23px;
+    margin-top: 12px;
+}
+.emptyLink{	
+	text-align: center;
+    clear: both;
+    font-size: 12px;
+}
+.emptyLink .blue {
+    color: #0083ce !important;
+    
+}
+.gt {
+    font-family: Simsun !important;
+}
+.boxCart{
+	border-top: #a5a5a5 2px solid;
+	display: none;
+}
+.head{
+    margin-top: 20px;
+    height: 35px;
+    border:1px solid #e6e6e6;
+    background: #f5f5f5;
+margin-bottom: 30px;
+}
+.head span{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.handle{float: left;
+    padding-left: 60px;
+width: 100px;
+height:35px;
+margin-top: 28px;}
+.handle a{
+    color: red;
+    cursor: pointer;
+}
+.cartB{
+    margin-top: 20px;
+    height: 50px;
+    border:1px solid #e6e6e6;
+    background: #f5f5f5;
+    margin-bottom: 30px;
+}
+.cartB span{background: red;
+    color: white;
+    float: right;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.footer div a {
+    color: #5E5E5E;
+}
+
+.footer div a:hover {
+    color: blue;
+}
+
+.shoppingList {
+    height: 500px;
+    margin-top: 20px;
+}
+
+.cartImg {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.proName {
+    float: left;
+    padding: 20px 0;
+    width: 180px;
+    height: 50px;
+    margin-right: 80px;
+}
+.proPri{
+    float: left;
+    width: 85px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.proNum{
+    float: left;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 70px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.proAllThis{
+    float: left;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.inptNum{
+    float: left;
+    width: 35px;
+    height: 25px;
+    border:1px solid #e6e6e6;
+    text-align: center;
+}
+.minusThis,.addThis{
+    cursor: pointer;
+    float: left;
+    width: 25px;
+    height: 25px;
+    border:1px solid #e6e6e6;
+    text-align: center;
+    line-height: 25px;
+}
+.cartLi{
+	display: block;
+	width:100%;
+	height:100px;
+}

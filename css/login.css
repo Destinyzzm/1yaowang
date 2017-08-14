@@ -1,0 +1,115 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block;
+  border: none; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font: 12px tahoma, arial, "Microsoft Yahei", 宋体;
+  color: #5E5E5E; }
+
+.layout {
+  margin: 0 auto;
+  width: 1190px; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both; }
+
+.content {
+  height: 460px;
+  border: 1px #dfdfdf solid;
+  border-top: 2px blue solid;
+  margin-bottom: 50px; }
+  .content .header_l {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 50px; }
+  .content .header_r {
+    padding-right: 20px;
+    height: 50px;
+    line-height: 50px;
+    float: right; }
+  .content form {
+    padding-top: 40px;
+    height: 350px;
+    background: url("../img/l_bg_02.png") no-repeat right bottom; }
+    .content form div {
+      width: 340px;
+      height: 40px;
+      border: 1px solid #e6e6e6;
+      margin-left: 100px;
+      position: relative; }
+      .content form div span {
+        float: left;
+        width: 40px;
+        height: 40px;
+        background: url("../img/regest.png") no-repeat; }
+      .content form div .phoneNum {
+        border: none;
+        float: right;
+        width: 300px;
+        height: 40px;
+        outline: none; }
+      .content form div .errorP1 {
+        width: 60px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        line-height: 40px;
+        display: none; }
+    .content form .errorP2, .content form .errorPwd1, .content form .errorPwd2 {
+      margin-left: 100px;
+      color: red;
+      height: 40px;
+      line-height: 40px; }
+    .content form .pwd1, .content form .pwd2 {
+      border: none;
+      float: right;
+      width: 300px;
+      height: 40px;
+      outline: none; }
+    .content form .btn {
+      background: blue;
+      margin-left: 100px;
+      border: 1px solid #e6e6e6;
+      width: 340px;
+      height: 40px;
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      font-size: 16px;
+      color: #FFF; }
+
+.footer div {
+  text-align: center; }
+  .footer div a {
+    color: #5E5E5E; }
+  .footer div a:hover {
+    color: blue; }
+
+/*# sourceMappingURL=login.css.map */

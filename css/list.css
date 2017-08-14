@@ -1,0 +1,148 @@
+.storbox_ul {
+  display: none;
+  z-index: 9;
+  padding: 0; }
+
+.con_left {
+  float: left; }
+  .con_left .list {
+    width: 180px;
+    margin-bottom: 20px; }
+    .con_left .list h2 {
+      font-size: 14px;
+      font-weight: bold;
+      padding: 8px 12px 9px;
+      background-color: #ddd;
+      border-top: 1px solid #dbdbdb; }
+    .con_left .list .list1 {
+      height: 36px;
+      overflow: hidden;
+      cursor: pointer;
+      font-size: 12px;
+      line-height: 36px;
+      border-top: 1px solid #e6e6e6;
+      background-color: #f5f5f5; }
+    .con_left .list span {
+      padding: 0 5px 0 15px; }
+    .con_left .list .list2 a {
+      width: 180px;
+      display: block;
+      height: 36px;
+      font-size: 12px;
+      line-height: 36px;
+      border-top: 1px solid #e6e6e6;
+      background-color: #fff; }
+
+.con_right {
+  float: right; }
+  .con_right .location {
+    padding-top: 5px;
+    height: 20px; }
+  .con_right .filter {
+    padding: 0 20px;
+    width: 960px;
+    border: 1px solid #e6e6e6; }
+    .con_right .filter div {
+      height: 39px;
+      border-bottom: 1px solid #e6e6e6; }
+      .con_right .filter div a {
+        margin-right: 50px;
+        line-height: 40px;
+        color: #5E5E5E; }
+      .con_right .filter div a:hover {
+        color: red; }
+      .con_right .filter div span {
+        display: inline-block;
+        width: 85px;
+        margin-right: 50px;
+        line-height: 40px; }
+    .con_right .filter .last {
+      border: none; }
+  .con_right .filterNav {
+    margin-top: 10px;
+    height: 35px;
+    border: 1px solid #e6e6e6;
+    background-color: #f5f5f5; }
+    .con_right .filterNav .fnL {
+      float: left; }
+      .con_right .filterNav .fnL span {
+        float: left;
+        height: 35px;
+        line-height: 35px;
+        padding: 0 10px;
+        border-right: 1px solid #e6e6e6; }
+        .con_right .filterNav .fnL span input {
+          width: 35px;
+          height: 15px;
+          border: 1px solid #e6e6e6;
+          background-color: #fff; }
+    .con_right .filterNav .fnR {
+      float: right;
+      height: 35px;
+      line-height: 35px; }
+      .con_right .filterNav .fnR span:nth-child(3), .con_right .filterNav .fnR .fnR span:nth-child(4) {
+        margin-top: 8px;
+        float: right;
+        line-height: 16px;
+        text-align: center;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #e6e6e6;
+        background-color: #fff; }
+  .con_right .module_last {
+    margin-top: 20px;
+    width: 1000px; }
+    .con_right .module_last li {
+      width: 240px;
+      margin-left: 10px;
+      float: left; }
+      .con_right .module_last li p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 5px;
+        font-size: 12px; }
+      .con_right .module_last li a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .con_right .module_last .index_goods_img {
+      width: 200px;
+      height: 200px; }
+    .con_right .module_last .product_list_name {
+      height: 40px;
+      color: black; }
+    .con_right .module_last .product_list_brand {
+      color: black; }
+    .con_right .module_last .product_list_salePrice {
+      color: red; }
+    .con_right .module_last .quantity, .con_right .module_last .shopCart {
+      float: left;
+      height: 28px;
+      padding: 10px 0; }
+    .con_right .module_last .shopCart {
+      float: right; }
+      .con_right .module_last .shopCart span {
+        cursor: pointer;
+        float: left;
+        width: 80px;
+        height: 28px;
+        color: red;
+        text-align: center;
+        line-height: 28px;
+        border: 1px solid #e6e6e6; }
+    .con_right .module_last .quantity input {
+      float: left;
+      width: 40px;
+      height: 28px;
+      border: 1px solid #e6e6e6;
+      text-align: center; }
+    .con_right .module_last .quantity span {
+      cursor: pointer;
+      float: left;
+      width: 28px;
+      height: 28px;
+      text-align: center;
+      line-height: 28px;
+      border: 1px solid #e6e6e6; }
+
+/*# sourceMappingURL=list.css.map */
